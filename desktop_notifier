@@ -1,0 +1,15 @@
+from win10toast import ToastNotifier
+Toast = ToastNotifier ()
+
+Toast.show_toast("XXXX", "fkjrgrgrigji4",
+                 duration= 1
+                 )
+Toast.show_toast("XXXX", "ok All",
+                 duration= 2
+                 )
+Toast.show_toast("XXXX", "wwww",
+                 duration= 3
+                 )
+Toast.show_toast("XXXX", "Last Update",
+                 duration= 5
+                 )
