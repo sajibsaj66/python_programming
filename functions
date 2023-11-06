@@ -1,0 +1,66 @@
+# x = "awesome"
+
+# def myfunc():
+#   x = "fantastic"
+#   print("Python is " + x)
+
+# myfunc()
+
+# print("Python is " + x)
+
+# num1 = 30
+# num2 = 40
+# sum = num1+num2
+# print ("the sum of given two number is ", sum)
+
+#Solution-2 (with user-inputs)
+
+# num1 = float(input("enter a number here: "))
+# num2 = float(input("enter another number here: "))
+
+# sum = num1 + num2
+
+# print ("the sum of the provided two numbers is", sum)
+# print ("~~~~~Mini Calculator~~~~~")
+
+# num1 = float(input("Enter a number here: "))
+# num2 = float(input("Enter another number here: "))
+
+# print ("""
+# Press 1 for addition 
+# Press 2 for subtraction
+# Press 3 for multiplication
+# Press 4 for division""")
+
+# choice = int(input("enter a number between 1-4: "))
+
+# if choice == 1:
+#     sum = num1+num2
+#     print ("the addition of the given two numbers is",sum)
+# elif choice == 2:
+#     print ("The subtraction of the given two numbers is",num1-num2)
+# elif choice == 3:
+#     print ("The multiplication of the given two numbers is",num1*num2)
+# elif choice == 4:
+#     print ("The division of the given two numbers is",num1/num2)
+# else:
+#     print ("Invalid Input from the User")
+
+
+#Solution 1 Using while Loop
+
+# num = int(input("enter a number here: "))
+#
+# count = 0
+# while num != 0:
+#     num = num//10
+#     count = count + 1
+#
+# print ("the number of digits are", count)
+
+
+#Solution 2 Using len() function
+
+num = 3210
+
+print ("the number of digits are: ",len(str(num)))
